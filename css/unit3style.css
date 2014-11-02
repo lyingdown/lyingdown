@@ -1,12 +1,30 @@
 body {
-	background: url("images/background.jpg");
+	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png"), url("http://lyingdown.github.io/lyingdown/images/background.jpg");
+	background-color: #545a69;
+	background-position: left top, right bottom;
+	background-repeat: repeat-x, no-repeat;
+	background-size: 500px, 1000px;
+	color: white;
+	font-family: helvetica;
+	margin-top: 200px;
+	margin-left: 100px;
 }
 
 hr {
-	color: blue;
-	width: 200px;
+	background: #fa6e6e;
+	border: 0 none;
+	color: #fa6e6e;
+	height: 2px;
+	margin: 0;
+	padding: 0;
+	width: 50px;
 }
 
 a {
-	padding: 100px;
+	padding: 0px;
+}
+
+#appbutton {
+	width: 185;
+	height: 56;
 }
