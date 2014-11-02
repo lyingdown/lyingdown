@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png"), url("http://lyingdown.github.io/lyingdown/images/cupcake_background.jpg");
 	background-color: #fff;
@@ -5,17 +6,18 @@ body {
 	background-repeat: repeat-x, no-repeat;
 	background-size: 500px, cover;
 	color: #fff;
-	font-family: helvetica;
+	font-family: helvetica, sans-serif;
 }
 
 #cupcakelogo {
+	display:block;
 	width:100px;
-	margin: 20px;
+	margin: 20px auto;
 }
 
-section {
+/*section {
 	text-align: center;
-}
+}*/
 
 .bodytext {
 	background-color: rgba(0,0,0,0.5);
@@ -40,7 +42,6 @@ h1 {
 hr {
 	background: #fff;
 	border: 0 none;
-	color: #fff;
 	height: 2px;
 	width: 50px;
 }
