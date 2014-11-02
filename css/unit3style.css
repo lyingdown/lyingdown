@@ -1,22 +1,17 @@
 body {
-	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png"), url("http://lyingdown.github.io/lyingdown/images/background.jpg");
-	background-color: #525a6a;
-	background-position: left top, right bottom;
-	background-repeat: repeat-x, no-repeat;
-	background-size: 500px, 1000px;
+	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png") repeat-x, url("http://lyingdown.github.io/lyingdown/images/background.jpg") no-repeat #525a6a;
+	background-size: auto, cover;
 	color: #fff;
-	font-family: helvetica;
+	font-family: helvetica, sans-serif;
 }
 
 section {
-	margin-left: 100px;
-	margin-top: 200px;
+	margin:200px 0 0 100px;
 }
 
 hr {
 	background: #fa6e6e;
 	border: 0 none;
-	color: #fa6e6e;
 	height: 2px;
 	margin: 0;
 	width: 50px;
@@ -24,5 +19,4 @@ hr {
 
 #appstorebutton {
 	width: 185;
-	height: 56;
 }
