@@ -6,6 +6,9 @@ body {
 	background-size: 500px, 1000px;
 	color: white;
 	font-family: helvetica;
+}
+
+section {
 	margin-top: 200px;
 	margin-left: 100px;
 }
@@ -20,11 +23,7 @@ hr {
 	width: 50px;
 }
 
-a {
-	padding: 0px;
-}
-
-#appbutton {
+#appstorebutton {
 	width: 185;
 	height: 56;
 }
