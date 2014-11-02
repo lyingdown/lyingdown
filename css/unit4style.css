@@ -12,9 +12,24 @@ section {
 	text-align: center;
 }
 
+.bodytext {
+	font-family: "Montserrat", sans-serif;
+	background-color: rgba(0,0,0,0.5);
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 50px;
+}
+
+.paragraphtext {
+	text-align: left;
+}
+
 h1 {
+	color: #ff2f00;
 	font-family: "Pacifico", serif;
 	font-size: 80pt;
+	margin-top: 0px;
+	margin-bottom: 30px;
 }
 
 hr {
@@ -30,4 +45,9 @@ footer {
 	text-align: right;
 	font-size: 8pt;
 	width: auto;
+}
+
+#cupcakelogo {
+	width:100px;
+	margin: 20px;
 }
