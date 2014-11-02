@@ -1,6 +1,6 @@
 body {
 	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png"), url("http://lyingdown.github.io/lyingdown/images/background.jpg");
-	background-color: #545a69;
+	background-color: #525a6a;
 	background-position: left top, right bottom;
 	background-repeat: repeat-x, no-repeat;
 	background-size: 500px, 1000px;
@@ -19,7 +19,6 @@ hr {
 	color: #fa6e6e;
 	height: 2px;
 	margin: 0;
-	padding: 0;
 	width: 50px;
 }
 
