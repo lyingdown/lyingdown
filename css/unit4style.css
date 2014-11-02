@@ -33,16 +33,19 @@ h1 {
 	font-size: 80pt;
 	margin-bottom: 30px;
 	margin-top: 0px;
+	text-align: center;
 }
 
 .paragraphtext {
 	text-align: left;
+	margin:1.62em 0 0 0;
 }
 
 hr {
 	background: #fff;
 	border: 0 none;
 	height: 2px;
+	margin:0 auto;
 	width: 50px;
 }
 
