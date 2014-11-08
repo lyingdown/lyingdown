@@ -4,41 +4,37 @@ body {
 	background-color: #fff;
 	background-position: left top, cover;
 	background-repeat: repeat-x, no-repeat;
-	background-size: 500px, cover;
+	background-size: auto, cover;
 	color: #fff;
 	font-family: helvetica, sans-serif;
+	height: auto;
 }
 
 #cupcakelogo {
-	display:block;
-	width:100px;
-	margin: 20px auto;
+	display: block;
+	margin: 0px auto;
+	width: 100px;
 }
 
-/*section {
-	text-align: center;
-}*/
-
-.bodytext {
-	background-color: rgba(0,0,0,0.5);
+section {
+	background-color: rgba(0,0,0,0.3);
 	font-family: "Montserrat", sans-serif;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding: 50px;
+	margin: 13px 0 0 0;
+	padding: 25px;
 }
 
 h1 {
 	color: #fc6f6f;
 	font-family: "Pacifico", serif;
-	font-size: 80pt;
-	margin-bottom: 30px;
-	margin-top: 0px;
+	font-size: 60pt;
+	margin:0 0 30px 0;
 	text-align: center;
 }
 
 .paragraphtext {
+	margin:1.62em auto 0 auto;
 	text-align: left;
-	margin:1.62em 0 0 0;
+	width: 450px;
 }
 
 hr {
@@ -50,8 +46,7 @@ hr {
 }
 
 footer {
+	background-color: rgba(0,0,0,0.3);
 	font-size: 8pt;
-	margin-top: 100px;
 	text-align: right;
-	width: auto;
 }
