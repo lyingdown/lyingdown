@@ -1,4 +1,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+
+a {
+	color: #fc6f6f;
+}
+
 body {
 	background: url("http://lyingdown.github.io/lyingdown/images/stripes.png"), url("http://lyingdown.github.io/lyingdown/images/cupcake_background.jpg");
 	background-color: #fff;
@@ -47,6 +52,8 @@ hr {
 
 footer {
 	background-color: rgba(0,0,0,0.3);
+	border-top: 1px solid #fff;
 	font-size: 8pt;
+	padding: 5px 0;
 	text-align: right;
 }
