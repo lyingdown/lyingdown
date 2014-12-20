@@ -1,0 +1,89 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  /* background: #efefef; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #b23e30;
+  text-align: center;
+}
+
+nav {
+  
+}
+
+div {
+  background: #efefef;
+}
+  
+span {
+  border: 0px;
+  margin: 0px;
+}
+
+.cardsquare {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: inline-block;
+  background: #efefef;
+}
+
+#christmas {
+  background: #b23e30;
+}
+
+#holidays {
+  
+}
+
+#chanukah {
+  
+}
+
+#ramadan {
+  
+}
+
+#newyears {
+  
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+section {
+  
+}
+
+footer {
+  
+}
+
+h2 {
+  
+}
+
+ul {
+  
+}
+
+li {
+  
+}
