@@ -1,10 +1,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-  background: url("/images/after_the_snow_simon_laroche.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #fff;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 header{
@@ -20,11 +19,11 @@ h1 {
 }
 
 nav {
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div {
-  background: #efefef;
 }
   
 span {
@@ -34,31 +33,30 @@ span {
 
 .cardsquare {
   text-align: center;
-  width: 200px;
-  height: 200px;
-  padding: 10px;
+  width: 33vw;
+  height: 33vw;
   display: inline-block;
-  background: #efefef;
+  padding-top: 10vw;
 }
 
 #christmas {
-  background: #b23e30;
+  background: rgb(178,62,48);
 }
 
 #holidays {
-  
+  background: rgb(255,134,120);
 }
 
 #chanukah {
-  
+  background: rgb(146,255,199);
 }
 
 #ramadan {
-  
+  background: rgb(66,178,121);
 }
 
 #newyears {
-  
+  background: rgb(0,0,0);
 }
 
 .clearfix:after {
