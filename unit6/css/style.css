@@ -2,6 +2,8 @@
 
 body {
   background: url("/images/after_the_snow_simon_laroche.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Open Sans', sans-serif;
 }
 
