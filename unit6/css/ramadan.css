@@ -1,0 +1,23 @@
+body {
+  background-image: url('../images/ramadan_at_katara_omar_chatriwala.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(146,255,199);
+}
+
+h3 {
+	color: rgb(255,215,0)
+}
+
+#message {
+  background-color: rgba(0,0,0,0.7);
+  line-height: 2.62em;
+  margin: 50px auto;
+  padding: 50px;
+  width: 750px;
+}

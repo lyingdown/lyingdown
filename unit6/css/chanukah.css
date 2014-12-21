@@ -1,0 +1,22 @@
+body {
+  background-image: url('../images/hanukkah_itzik_edri.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(255,215,0)
+}
+
+h3 {
+	color: rgb(146,255,199);
+}
+
+#message {
+  background-color: rgba(146,255,199,0.3);
+  margin: 50px auto;
+  padding: 50px;
+  width: 750px;
+}
