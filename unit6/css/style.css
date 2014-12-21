@@ -31,12 +31,21 @@ h1 {
 }
 
 p {
-
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
 }
 
 h2 {
   font-family: 'Neucha', sans-serif;
   font-size: 3em;
+}
+
+h3 {
+  color: rgb(66,178,121);
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
 }
 
 nav {
@@ -73,8 +82,8 @@ footer {
 }
 
 .mini {
-  width: 3vw;
-  height: 3vw;
+  width: 10vh;
+  height: 10vh;
 }
 
 .cardfrontsection {
@@ -82,8 +91,22 @@ footer {
   height: 5vh;
 }
 
-.cardmidsection {
+#christmascard {
   background-image: url('../images/winter_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+#newyearscard {
+  background-image: url('../images/newyears.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+#holidayscard {
+  background-image: url('../images/holidays.png');
   background-position: center;
   background-repeat: no-repeat;
   height: 85vh;
@@ -168,7 +191,8 @@ footer {
 }
 
 .insidecard {
-  height: 100vh;
+  height: 90vh;
+  margin-top: 10vh;
 }
 
 #christmas {

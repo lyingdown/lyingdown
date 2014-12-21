@@ -1,0 +1,22 @@
+body {
+  background-image: url('../images/fireworks_over_the_lake_olsonj.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #fff;
+}
+
+h3 {
+	color: rgb(0,0,0);
+}
+
+#message {
+  background-color: rgba(85,85,85,0.5);
+  margin: 50px auto;
+  padding: 50px;
+  width: 750px;
+}

@@ -1,0 +1,22 @@
+body {
+  background-image: url('../images/winter_getaway_gary_simmons.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(255,134,120);
+}
+
+h3 {
+	color: rgb(0,0,0);
+}
+
+#message {
+  background-color: rgba(139,139,139,0.5);
+  margin: 50px auto;
+  padding: 50px;
+  width: 750px;
+}
