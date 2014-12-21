@@ -57,23 +57,118 @@ section {
 }
 
 footer {
-  
-}
-
-ul {
-  
-}
-
-li {
-  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 10vh; 
 }
 
 .cardsquare {
   text-align: center;
-  width: 33vw;
+  width: 33%;
   height: 33vw;
   display: inline-block;
   padding-top: 10vw;
+  float: left;
+}
+
+.mini {
+  width: 3vw;
+  height: 3vw;
+}
+
+.cardfrontsection {
+  background-image: url('../images/white_bg2.png');
+  height: 5vh;
+}
+
+.cardmidsection {
+  background-image: url('../images/winter_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+#temp1 {
+  background-color: #fff;
+  height: 100%;
+  float: left;
+  width:303px;
+}
+
+#temp2 {
+  height: 100%;
+  float: left;
+  width: 750px;
+}
+
+#temp3 {
+  background-color: #fff;
+  height: 100%;
+  float: left;
+  width: 295px;
+}
+
+/*
+.cardpanel {
+  display: inline-block;
+  float: left;
+  height: 95vh;
+  width: 20%;
+}
+
+.cardgrid {
+  float: left;
+  height: 95vh;
+  width: 60%;
+}
+
+.cardbuffer {
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.cardcorner {
+  height: auto;
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+#cardmiddlepanel {
+  width: 100px;
+  height: 650px;
+}
+
+#cardleftpanel {
+  background-image: url('../images/left_brace.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 370px;
+  min-width: 170px;
+  max-height: 650px;
+}
+
+#cardrightpanel {
+  background-image: url('../images/right_brace.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  max-width: 370px;
+  min-width: 170px;
+  max-height: 650px;
+}
+*/
+
+#cardscallop {
+  background-image: url('../images/scallop.png');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+
+.insidecard {
+  height: 100vh;
 }
 
 #christmas {
